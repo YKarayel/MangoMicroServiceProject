@@ -1,4 +1,4 @@
-﻿namespace Mango.Services.CouponAPI.Models
+﻿namespace Mango.Services.AuthAPI.Models
 {
 	public class Coupon
 	{

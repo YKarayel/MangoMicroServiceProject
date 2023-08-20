@@ -1,4 +1,5 @@
-﻿using static Mango.Web.Utility.SD;
+﻿using System.ComponentModel.DataAnnotations;
+using static Mango.Web.Utility.SD;
 
 namespace Mango.Web.Models
 {
@@ -8,5 +9,7 @@ namespace Mango.Web.Models
         public string Url { get; set; }
         public object Data { get; set; }
         public string AccessToken { get; set; }
+        [Range(1,100)]
+        public int Count { get; set; } = 1;
     }
 }

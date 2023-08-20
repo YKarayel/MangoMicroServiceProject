@@ -3,7 +3,7 @@ using Mango.Services.AuthAPI.Services.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Mango.Services.AuthAPI.Controllers
+namespace Mango.Services.CouponAPI.Controllers
 {
 	[Route("api/auth")]
 	[ApiController]
@@ -12,10 +12,10 @@ namespace Mango.Services.AuthAPI.Controllers
 		private readonly IAuthService _authService;
 		protected ResponseDto _response;
 
-		public AuthAPIController(IAuthService authService, ResponseDto response)
+		public AuthAPIController(IAuthService authService)
 		{
 			_authService = authService;
-			_response = new();
+			_response = new ();
 		}
 
 		[HttpPost("register")]

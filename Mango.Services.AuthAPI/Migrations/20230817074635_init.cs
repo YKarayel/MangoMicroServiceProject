@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Mango.Services.AuthAPI.Migrations
+namespace Mango.Services.CouponAPI.Migrations
 {
     /// <inheritdoc />
     public partial class init : Migration

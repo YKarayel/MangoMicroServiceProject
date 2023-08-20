@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Mango.Services.AuthAPI.Models;
-using Mango.Services.AuthAPI.Models.Dto;
+using Mango.Services.CouponAPI.Models;
+using Mango.Services.CouponAPI.Models.Dto;
 
-namespace Mango.Services.AuthAPI
+namespace Mango.Services.CouponAPI
 {
 	public class MappingConfig
 	{
